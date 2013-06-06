@@ -1,0 +1,21 @@
+#!/bin/bash
+
+if [ "$1" == "remove" ] || [ "$1" == "purge" ]; then
+
+# removing config files and database should be performed only if user requested purge
+
+	if [ "$1" == "purge" ]; then
+
+      	  	if [ -d "/usr/local/share/sickbeard-tpb" ]; then
+        	        rm -rf /usr/local/share/sickbeard-tpb &>/dev/null
+	        fi
+
+		if [ -d "/etc/sickbeard" ]; then
+			rm -fr /etc/sickbeard
+                	rm -f /etc/default/sickbeard
+		fi
+	fi
+
+	true
+
+fi

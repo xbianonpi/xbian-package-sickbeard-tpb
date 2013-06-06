@@ -1,0 +1,19 @@
+#!/bin/bash
+
+if [ $1 == "install" -o $1 == "upgrade" ]; then
+
+        if [ -f "/etc/init.d/sickbeard" ]; then
+                /etc/init.d/sickbeard stop &>/dev/null;
+        fi
+
+        if [ -d "/usr/local/etc/sickbeard/" ]; then
+
+		mv /usr/local/etc/sickbeard /etc/sickbeard
+
+		ln -s /etc/sickbeard /usr/local/etc/sickbeard
+
+	else
+		true
+	fi
+
+fi
