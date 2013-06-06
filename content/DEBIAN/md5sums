@@ -1,6 +1,6 @@
 3effda8a6956079548761a548f519eba  etc/default/sickbeard
 646e0de644bfb19327c8648ade820894  etc/init.d/sickbeard
-9409a75cc60f9ec96deefee074214d49  etc/sickbeard/sickbeard.ini
+8d9bb8acea9ca7539c510b802f9a28a4  etc/sickbeard/sickbeard.ini
 b05d2229b6ea3e7643c055197025b9fe  usr/local/share/sickbeard-tpb/.git/HEAD
 aa3888936d374c717b6393211850e03a  usr/local/share/sickbeard-tpb/.git/config
 a0a7c3fff21f2aea3cfa1d0316dd816c  usr/local/share/sickbeard-tpb/.git/description
@@ -12,11 +12,11 @@ a4a7e457b55b5ac2877f7973dbba37e9  usr/local/share/sickbeard-tpb/.git/hooks/pre-a
 3ff6ba9cf6d8e5332978e057559b5562  usr/local/share/sickbeard-tpb/.git/hooks/pre-rebase.sample
 7dfe15854212a30f346da5255c1d794b  usr/local/share/sickbeard-tpb/.git/hooks/prepare-commit-msg.sample
 98d7f8e291edbab8df79e433dc97ecc8  usr/local/share/sickbeard-tpb/.git/hooks/update.sample
-4ce6f3dc502814641e1dd80ecd37efe5  usr/local/share/sickbeard-tpb/.git/index
+4afc7ec305d6af69c786b6ee114d34af  usr/local/share/sickbeard-tpb/.git/index
 036208b4a1ab4a235d75c181e685e5a3  usr/local/share/sickbeard-tpb/.git/info/exclude
-86d8ccb7dac531b821bf2c83a9165e66  usr/local/share/sickbeard-tpb/.git/logs/HEAD
-86d8ccb7dac531b821bf2c83a9165e66  usr/local/share/sickbeard-tpb/.git/logs/refs/heads/ThePirateBay
-86d8ccb7dac531b821bf2c83a9165e66  usr/local/share/sickbeard-tpb/.git/logs/refs/remotes/origin/HEAD
+a96ad93e14c9743d3381a2ed8bb661a5  usr/local/share/sickbeard-tpb/.git/logs/HEAD
+a96ad93e14c9743d3381a2ed8bb661a5  usr/local/share/sickbeard-tpb/.git/logs/refs/heads/ThePirateBay
+a96ad93e14c9743d3381a2ed8bb661a5  usr/local/share/sickbeard-tpb/.git/logs/refs/remotes/origin/HEAD
 e0126c4ac704cc7c37460320908ec46d  usr/local/share/sickbeard-tpb/.git/objects/pack/pack-876edf9f92f697200ee9d78b3c29447e35cc28e1.idx
 d1d4913b9f49a5b69371ffe89fa9a960  usr/local/share/sickbeard-tpb/.git/objects/pack/pack-876edf9f92f697200ee9d78b3c29447e35cc28e1.pack
 677a1471864e3974f547eaa24248548a  usr/local/share/sickbeard-tpb/.git/packed-refs
