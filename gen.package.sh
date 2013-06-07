@@ -1,7 +1,7 @@
 #!/bin/sh
 
 #------------------------------------------------------------
-#pre-gen specific for sickbeard package (to enable updates)
+pre-gen specific for sickbeard package (to enable updates)
 
 DIR="./content/usr/local/share/sickbeard"
 
