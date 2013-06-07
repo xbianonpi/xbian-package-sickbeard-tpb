@@ -24,15 +24,32 @@ if [ -d "/usr/local/share/sickbeard" ]; then
 
                 if ! grep -q "ThePirateBay" "$versionfile"; then
                         #backup database because it's not upgrading from a PirateBay branch
-                        count=`ls -1 *.dbdfa* 2>/dev/null | wc -l`
+                        count=`ls -1 /usr/local/share/sickbeard/*.db* 2>/dev/null | wc -l`
                         if [ $count != 0 ];then
-                                mkdir /usr/local/share/sickbeard/old_db_bak
-                                cp /usr/local/share/sickbeard/*.db* /usr/local/share/sickbeard/old_db_bak/.
+				if [ -d "/usr/local/share/sickbeard/old_db_bak" ];then
+                                	mkdir /usr/local/share/sickbeard/old_db_bak
+				fi
+                                mv /usr/local/share/sickbeard/*.db* /usr/local/share/sickbeard/old_db_bak/.
                         fi
 
                 fi
 
+	else
+
+		#try to backup if versionfile is missing
+		count=`ls -1 /usr/local/share/sickbeard/*.db* 2>/dev/null | wc -l`
+                if [ $count != 0 ];then
+			if [ -d "/usr/local/share/sickbeard/old_db_bak" ];then
+                		mkdir /usr/local/share/sickbeard/old_db_bak
+			fi
+                	mv /usr/local/share/sickbeard/*.db* /usr/local/share/sickbeard/old_db_bak/.
+                fi
+
+
         fi
+
+
+
 fi
 
 
