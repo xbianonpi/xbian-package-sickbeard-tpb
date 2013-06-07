@@ -6,14 +6,10 @@ if [ "$1" == "remove" ] || [ "$1" == "purge" ]; then
 
 	if [ "$1" == "purge" ]; then
 
-      	  	if [ -d "/usr/local/share/sickbeard" ]; then
-        	        rm -rf /usr/local/share/sickbeard &>/dev/null
-	        fi
+		rm -rf /usr/local/share/sickbeard
+		rm -rf /etc/sickbeard
+		rm -f /etc/default/sickbeard
 
-		if [ -d "/etc/sickbeard" ]; then
-			rm -fr /etc/sickbeard
-                	rm -f /etc/default/sickbeard
-		fi
 	fi
 
 	true
