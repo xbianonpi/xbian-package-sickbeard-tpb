@@ -3,7 +3,7 @@
 #------------------------------------------------------------
 #pre-gen specific for sickbeard package (to enable updates)
 
-DIR="./content/usr/local/share/sickbeard-tpb"
+DIR="./content/usr/local/share/sickbeard"
 
 if [ "$(ls -A $DIR)" ]; then
         rm -rf $DIR

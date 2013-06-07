@@ -7,7 +7,7 @@ if [ "$1" == "remove" ] || [ "$1" == "purge" ]; then
 	if [ "$1" == "purge" ]; then
 
       	  	if [ -d "/usr/local/share/sickbeard-tpb" ]; then
-        	        rm -rf /usr/local/share/sickbeard-tpb &>/dev/null
+        	        rm -rf /usr/local/share/sickbeard &>/dev/null
 	        fi
 
 		if [ -d "/etc/sickbeard" ]; then

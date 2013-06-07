@@ -34,8 +34,8 @@
 NAME=sickbeard
 DESC=SickBeard
 RUN_AS=xbian
-APP_PATH=/usr/local/share/sickbeard-tpb
-DATA_DIR=/usr/local/share/sickbeard-tpb
+APP_PATH=/usr/local/share/sickbeard
+DATA_DIR=/usr/local/share/sickbeard
 PID_FILE=/tmp/sickbeard.pid
 DAEMON=/usr/bin/python
 EXTRA_DAEMON_OPTS=" --config=$CONFIG_FILE"
