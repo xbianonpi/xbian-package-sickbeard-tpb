@@ -2,6 +2,10 @@
 
 if [ "$1" == "remove" ] || [ "$1" == "purge" ]; then
 
+	if [ -h /usr/local/etc/sickbeard ]; then
+		rm -f /usr/local/etc/sickbeard
+	fi
+
 # removing config files and database should be performed only if user requested purge
 
 	if [ "$1" == "purge" ]; then
