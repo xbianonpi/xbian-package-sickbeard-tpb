@@ -4,7 +4,7 @@ Version: 1.0
 Section: net
 Priority: optional
 Architecture: armhf
-Depends: xbian-update, python-cheetah, git
+Depends: xbian-update, python-cheetah, git-core
 Replaces: xbian-package-sickbeard
 Maintainer: sjengfred <sjengfred@home.nl>
 Description: SickBeard TPB compiled, patched and configured for XBian
