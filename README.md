@@ -1,3 +1,3 @@
-SickBeard TPB for xbian
-=======================
+SickBeard for xbian
+===================
 

@@ -1,10 +1,12 @@
 Origin: XBian
-Package: xbian-package-sickbeard-tpb
-Version: 1.0
+Package: xbian-package-sickbeard
+Version: 2.0
 Section: net
 Priority: optional
 Architecture: armhf
 Depends: xbian-update, python-cheetah, git-core
-Replaces: xbian-package-sickbeard
+Replaces: xbian-package-sickbeard-tpb
+Provides: xbian-package-sickbeard-tpb
+Conflicts: xbian-package-sickbeard-tpb
 Maintainer: sjengfred <sjengfred@home.nl>
-Description: SickBeard TPB compiled, patched and configured for XBian
+Description: SickBeard compiled, patched and configured for XBian
